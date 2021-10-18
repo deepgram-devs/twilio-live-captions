@@ -1,0 +1,29 @@
+{
+  "name": "twilio-live-captions",
+  "version": "1.0.0",
+  "description": "Sample app demonstrating adding live captions to Twilio Video rooms",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepgram-devs/twilio-live-captions.git"
+  },
+  "keywords": [
+    "twilio",
+    "speech-to-text",
+    "captions"
+  ],
+  "author": "Michael Jolley <michael.jolley@deepgram.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepgram-devs/twilio-live-captions/issues"
+  },
+  "homepage": "https://github.com/deepgram-devs/twilio-live-captions#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "twilio": "^3.69.0"
+  }
+}
