@@ -6,7 +6,7 @@ transcriptions for each participant.
 ## Prerequisites
 
 - A [Twilio](https://www.twilio.com/) account
-- A [Deepgram](https://console.deepgram.com/) account
+- A [Deepgram](https://console.deepgram.com/signup?utm_medium=github&utm_source=DEVREL&utm_content=twilio-live-captions) account
 - Optional: [Ngrok](https://ngrok.com/) for test deployment
 
 ## Getting Started
@@ -31,7 +31,7 @@ cp .env-sample .env
 | twilioAccountSid | Your primary Twilio account identifier - find this [in the console here](https://www.twilio.com/console) |
 | twilioApiKey | Used to authenticate - [generate one here](https://www.twilio.com/console/runtime/api-keys) |
 | twilioApiSecret | Used to authenticate - [generate one here](https://www.twilio.com/console/runtime/api-keys) |
-| deepgramApiKey | API Key for the Deepgram project you're using - [generate one here](https://console.deepgram.com/) |
+| deepgramApiKey | API Key for the Deepgram project you're using - [generate one here](https://console.deepgram.com/signup?utm_medium=github&utm_source=DEVREL&utm_content=twilio-live-captions) |
 
 4. Install dependancies
 
@@ -64,4 +64,4 @@ project, let us know! You can either:
 
 ## Further Reading
 
-Check out the Developer Documentation at [https://developers.deepgram.com/](https://developers.deepgram.com/)
+Check out the Developer Documentation at [https://developers.deepgram.com/](https://developers.deepgram.com/?utm_medium=github&utm_source=DEVREL&utm_content=twilio-live-captions)
